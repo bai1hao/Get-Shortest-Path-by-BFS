@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get Shortest Path by BFS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>Get Shortest Path by BFS</h1>
+<div class="infoBox">
+    <div class="info">click on the S or E point to delete them</div>
+    <div class="info">click on the road to place an S point on it if there is no S point yet or both S and E do not exist on the
+        road</div>
+    <div class="info"> click on the road to place an E point on it if there is no E point on the road yet</div>
+    <div class="info"> click on a non-road area to place a road tile on the map</div>
+    <div class="info">click on a road tile to change it to a non-road tile.</div>
+    <div class="info">Each time when the road or the S and E points changed, the roadmap data will be saved</div>
+</div>
+<div class="container"></div>
+<div class="control">
+    <button class="button-start">Play</button>
+    <button class="button-reset">Reset</button>
+    <button class="button-clear">Clear Saved Data</button>
+</div>
+<div class="alertBg">
+    <div class="alert">
+        <p class="alert-text"></p>
+        <button class="button-ok">ok</button>
+    </div>
+</div>
+<script src="js/grid.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+h1 {
+    text-align: center;
+    margin:30px 0;
+}
+.info {
+    text-align: center;
+}
+.infoBox {
+    margin-bottom: 20px;
+}
+.container {
+    position: relative;
+    margin:auto;
+    box-shadow: 0 0 5px;
+}
+
+.control {
+    margin:20px;
+    text-align: center;
+}
+.alertBg{
+    display: none;
+    position: fixed;
+    left:0;
+    top:0;
+    background: rgba(0, 0, 0, 0.24);
+    width:100vw;
+    height: 100vh;
+    place-items: center;
+}
+.alert {
+    text-align: center;
+    border-radius: 15px;
+    background: white;
+    min-width: 300px;
+    padding:20px 20px;
+
+}
+.alert-text {
+    font-size:20px;
+    margin-bottom: 10px;
+}
+button {
+    font-size: 20px;
+    padding:2px 20px;
+}
+.cell {
+    color:grey;
+    position: absolute;
+    display: grid;
+    place-items: center;
+}
+.no-road {
+    box-shadow: 0 0 1px;
+    background: rgb(126, 196, 126);
+}
+.road {
+    background: rgb(255, 247, 186);
+}
